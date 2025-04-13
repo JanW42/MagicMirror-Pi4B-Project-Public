@@ -1,0 +1,55 @@
+{
+  "name": "mmm-jast",
+  "version": "2.9.5",
+  "description": "A minimalistic stock ticker based on Yahoo's finance API for the MagicMirror² platform.",
+  "main": "MMM-Jast.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalibu/MMM-Jast.git"
+  },
+  "author": "Jan.Litzenburger@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "magicmirror",
+    "stock",
+    "stocks",
+    "ticker",
+    "finance",
+    "yahoo",
+    "currency",
+    "currencies",
+    "crypto",
+    "market",
+    "shares"
+  ],
+  "bugs": {
+    "url": "https://github.com/jalibu/MMM-Jast/issues"
+  },
+  "homepage": "https://github.com/jalibu/MMM-Jast#readme",
+  "dependencies": {
+    "yahoo-finance2": "^2.11.3"
+  },
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "dev": "rollup -c --sourcemap=inline --bundleConfigAsCjs",
+    "dev:watch": "npm run dev -- --watch",
+    "lint": "eslint . && prettier --check .",
+    "lint:fix": "eslint --fix . && prettier --write ."
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/magicmirror-module": "^2.16.5",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "prettier": "^3.2.4",
+    "rollup": "^4.9.6",
+    "rollup-plugin-banner2": "^1.2.2",
+    "typescript": "^5.3.3"
+  }
+}
