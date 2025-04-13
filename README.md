@@ -1,6 +1,6 @@
 # MagicMirror
 
-![MagicMirror](https://github.com/user-attachments/assets/b81ea75b-3744-4f2f-b49d-13862c311161)
+![MagicMirror](https://github.com/user-attachments/assets/96684fb2-27c0-48b9-be2c-fbd08088ddd3)
 
 > [!CAUTION]
 > For cybersecurity reasons the `config.js` file is included in the`.gitignore`.
