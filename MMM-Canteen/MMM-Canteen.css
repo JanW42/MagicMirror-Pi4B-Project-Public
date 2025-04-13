@@ -1,0 +1,27 @@
+.MMM-Canteen {
+  table {
+    max-width: 35vw;
+  }
+
+  table .title {
+    text-align: left;
+  }
+
+  .price {
+    text-align: center;
+    vertical-align: top;
+  }
+
+  .veggie {
+    text-align: center;
+    vertical-align: top;
+  }
+
+  tbody td {
+    padding: 5px;
+  }
+
+  tbody tr:nth-of-type(odd) td {
+    background-color: #ffffff09;
+  }
+}

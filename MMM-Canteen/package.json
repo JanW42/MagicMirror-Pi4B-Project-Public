@@ -1,0 +1,55 @@
+{
+  "name": "mmm-canteen",
+  "version": "2.5.1",
+  "description": "A module for MagicMirror² to display menus from openmensa.org.",
+  "keywords": [
+    "magicmirror",
+    "canteen",
+    "openmensa"
+  ],
+  "homepage": "https://github.com/KristjanESPERANTO/MMM-Canteen#readme",
+  "bugs": {
+    "url": "https://github.com/KristjanESPERANTO/MMM-Canteen/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristjanESPERANTO/MMM-Canteen.git"
+  },
+  "license": "MIT",
+  "author": "Kevin (https://github.com/k-0/)",
+  "contributors": [
+    "https://github.com/KristjanESPERANTO/MMM-Canteen/graphs/contributors"
+  ],
+  "main": "MMM-Canteen.js",
+  "scripts": {
+    "lint": "eslint && stylelint **/*.css  && markdownlint . --ignore node_modules && prettier --check .",
+    "lint:fix": "eslint --fix && stylelint **/*.css --fix && markdownlint . --ignore node_modules --fix && prettier --write .",
+    "release": "npx bumpp --no-push",
+    "test": "npm run lint && npm run test:spelling",
+    "test:spelling": "cspell ."
+  },
+  "lint-staged": {
+    "*.css": "stylelint --fix",
+    "*.js": "eslint --cache --fix",
+    "*.md": "markdownlint --ignore node_modules --fix"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "@eslint/json": "^0.11.0",
+    "@eslint/markdown": "^6.3.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "cspell": "^8.18.1",
+    "eslint": "^9.24.0",
+    "eslint-plugin-import-x": "^4.10.1",
+    "globals": "^16.0.0",
+    "lint-staged": "^15.5.0",
+    "markdownlint-cli": "^0.44.0",
+    "prettier": "^3.5.3",
+    "stylelint": "^16.18.0",
+    "stylelint-config-standard": "^38.0.0",
+    "stylelint-prettier": "^5.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
