@@ -1,0 +1,164 @@
+.normal,
+.dimmed,
+header,
+body {
+     color: #fff;
+}
+
+:root {
+  --gap-body-top: 30px;
+  --gap-body-right: 30px;
+  --gap-body-bottom: 30px;
+  --gap-body-left: 30px;
+
+}
+
+.clock {
+  font-size: 130%;
+  font-family: Helvetica;
+} 
+
+.MMM-MonthCalendar {
+  font-family: Helvetica;
+}
+
+/* Monatskalender, der heutige Tag*/
+.module.MMM-MonthCalendar .calendar-days [today] {
+  color: #000000;
+  background-color: rgba(243, 243, 243, 0.356);
+  border-radius: 5%;
+  font-weight: 700;
+}
+
+.MMM-Worldclock {
+    font-size: 140%;
+    font-family: Helvetica;
+    min-width:320px;
+    line-height:normal;
+    display:block;
+}
+
+.worldclock .time {
+    font-size: 80%;
+}
+
+.MMM-MyStudyLife {
+  font-family: Helvetica;
+  text-align: left;
+}
+
+/* Aenderungen Nach dem Aktienkurs*/
+.jast-wrapper .jast-stock span.jast-change {
+  vertical-align: top;
+  font-size: calc(var(--size) - 0.3em);
+  background-color: #000000cb !important;
+  padding: 3px;
+  border-radius: 3em;
+}
+/*Schrift der Aktiennamen*/
+.jast-wrapper {
+  font-family: Helvetica;
+  font-size: 100%;
+  line-height: 25px; /*Zeilenabstand des modules*/
+}
+.jast-wrapper:not(.monochrome) .jast-stock span.high {
+  color: #2d8600;
+  font-size: 95%;
+  background-color: #000000cb !important;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 3em;
+}
+.jast-wrapper:not(.monochrome) .jast-stock span.low {
+  color: #FF5A44;
+  font-size: 95%;
+  background-color: #000000cb !important;
+  padding: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  border-radius: 3em;
+}
+
+/*Die Aenderung in Eur und die Prozent Aenderung*/
+.jast-wrapper .jast-stock span.jast-change {
+  vertical-align: 0%; /*Prozent Aenderungen Ausrichtung nach oben oder nach oben*/
+  font-size: 70%;
+}
+/* Der ganze Block, unnutz*/
+.jast-wrapper.horizontal span.jast-stock:before {
+  content: "\2023";
+  margin-right: 0.4em;
+  margin-left: 0.4em;
+}
+
+.MMM-CoinMarketCap {
+  font-family: Helvetica;
+}
+
+.MMM-CoinMarketCap .positive { 
+  color: #2d8600; 
+}
+
+.MMM-CoinMarketCap td.cell-graph img.up {
+	filter: hue-rotate(0) saturate(75%) brightness(0.80) grayscale(100%); /* hue-rotate ändert die Farbe vom  Graph Image, das normalerweise Organe ist*/
+}
+
+.MMM-CoinMarketCap .negative {
+   color: #FF5A44; 
+}
+
+.MMM-SystemStats {
+  font-size: 70%;
+  font-family: Helvetica;
+}
+
+.MMM-OpenmapWeather {
+  font-family: Helvetica;
+}
+
+.weather {
+  font-family: Helvetica;
+}
+
+/*Wettervorhersage Sonne wird gleb*/
+.wi-day-sunny {
+  color: #ffee00;
+}
+
+/*FritxBox QR Image*/
+.MMM-SimpleLogoQR {
+  font-family: Helvetica;
+  text-align: center; /*Text Ausrichtung ueberm Bild*/
+  opacity: 1; /*Wie Transparent das Modul ist, 1 ist undurchsichtig, 0.1 fast komplett durchsichtig */
+}
+
+.MMM-Birthdays {
+  font-size: 100%;
+  font-family: Helvetica;
+  min-height: auto;
+  min-width:500px;
+  line-height:normal;
+  display:block;
+
+}
+
+.calendar {
+  font-family: Helvetica;
+}
+
+.newsfeed {
+  font-family: Helvetica;
+
+}
+
+.MMM-EmbedURL .ebmed .title {
+  text-decoration: none;
+}
+.MMM-EmbedURL .embed .embeded {
+  width: 700px;
+  height: 700px;
+  margin-left: 362px;
+  border-radius: 20px;
+  overflow: hidden;
+}
