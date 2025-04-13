@@ -16,9 +16,9 @@
 - [`MMM-BackgroundSlideshow`](https://github.com/darickc/MMM-BackgroundSlideshow) Display background image.
 - [`MMM-SimpleLogo`](https://github.com/frdteknikelektro/MMM-SimpleLogo) Display QR-Code for Wifi access.
 - [`MMM-Birthdays`](https://github.com/marcomerens/anniversarymodule) Display Birthdays.
-- [`MMM-Jast`](https://github.com/jalibu/MMM-Jast) Display stock prices using.
-- [`MMM-CoinMarketCap`](https://github.com/glitch452/MMM-CoinMarketCap) Display cryptocourrency information using coinmarketcap API.  
-- [`MMM-Canteen`](https://github.com/KristjanESPERANTO/MMM-Canteen) Scrape websites to get Mensa data and display the informations.
+- [`MMM-Jast`](https://github.com/jalibu/MMM-Jast) Display stock prices using Yahoo Finance API.
+- [`MMM-CoinMarketCap`](https://github.com/glitch452/MMM-CoinMarketCap) Display cryptocourrency stock prices using coinmarketcap API.  
+- [`MMM-Canteen`](https://github.com/KristjanESPERANTO/MMM-Canteen) Scraping websites to get Mensa data and display the informations.
 - [`MMM-SystemStats`](https://github.com/BenRoe/MMM-SystemStats) Display systemstas every 10s.
 
 ---
