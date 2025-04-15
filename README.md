@@ -2,7 +2,7 @@
 
 ![MagicMirrorv2022](https://github.com/user-attachments/assets/96684fb2-27c0-48b9-be2c-fbd08088ddd3)
 
-![MagicMirrorv2025](https://github.com/user-attachments/assets/b788c02f-d998-40b8-a831-28e7cedf7ef9)
+![MagicMirrorv2025](https://github.com/user-attachments/assets/6a354cc2-112f-4147-b4a9-be9a35eb4659)
 
 
 > [!CAUTION]
